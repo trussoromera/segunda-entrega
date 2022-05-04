@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-padre{
+    background-image: url(/multimedia/foto\ main.jpg);
+    width: 100%;
+    background-position: center;
+}
+
+
+.footer-config{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    
+    padding: 1rem;
+}
+.redes-soc a{
+    color: white;
+    font-size: 25px;
+    padding: 2%;
+}
+
+.redes-sociales a:hover {
+    color: aqua;
+}
+iframe{
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.carousel-index img{
+    margin: auto;
+    padding-top: 2rem;
+    height: 22rem;
+    width: 22rem;
+
+}
+
+.pago-envio i{
+    font-size: 100px;
+    color: beige;
+}
+
+.pago-envio p{
+    padding-top: 2rem;
+}
+.pago-envio{
+    margin: auto;
+    padding-top: 8rem;
+    height: 22rem;
+    width: 22rem;
+    color: beige;
+    text-align: center;
+
+}
