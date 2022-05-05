@@ -35,15 +35,15 @@
                             <a class="nav-link" href="#">Nosotros</a>
                         </li>
                     </ul>
-                    <span class="navbar-text">
-                        Navbar
-                    </span>
+
                 </div>
             </div>
         </nav>
     </header>
     <main class="contenedor-padre">
-        
+
+        <!-- carousel fotos -->
+
 
         <div id="carousel-primero" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -65,17 +65,66 @@
                     <img src="/multimedia/carousel 3.jpg" class="d-block w-80" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-primero"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-primero" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-primero"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-primero" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
+        <!-- grid de fotos -->
+        
+            <div id="container-fotos" class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="/multimedia/carosel 1.jpeg" alt="">
+
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/multimedia/carousel 2.jpg" alt="">
+
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/multimedia/carousel 3.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+        
+
+
+        <!-- grid pagos y envios -->
+
+        
+            <div id="container-pagos-envio" class="container-fluid">
+                <div class="row">
+                    
+                        <div class="pago-envio col-lg-4 col-md-2">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <p>ENVIOS A TODO EL PAIS</p>
+                        </div>
+                    
+                    
+                        <div class="pago-envio col-lg-4 col-md-2">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <p>10% OFF EFECTIVO</p>
+                        </div>
+                    
+                    
+                        <div class="pago-envio col-lg-4 col-md-2">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <p>12 CUOTAS SIN INTERES</p>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+        
+
+        <!-- carousel pagos y envios  -->
 
 
         <div>
@@ -98,14 +147,13 @@
                     <div class="carousel-item">
                         <div class="pago-envio">
                             <i class="fa-solid fa-dollar-sign"></i>
-                            
+
                             <p>10% OFF EFECTIVO</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="pago-envio">
                             <i class="fa-solid fa-credit-card"></i>
-                            
                             <p>12 CUOTAS SIN INTERES</p>
                         </div>
                     </div>
@@ -121,15 +169,17 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            
+
         </div>
 
+        <!-- video de youtube -->
 
-        <div class="container-fluid">
-            <iframe width="330" height="250" src="https://www.youtube.com/embed/ZUJJ3GNM70M" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+
+        <div class="container-fluid text-center">
+            <iframe width="380" height="300" src="https://www.youtube.com/embed/ZUJJ3GNM70M"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
     </main>
